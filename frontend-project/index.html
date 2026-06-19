@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="nav-bar">
+        <h3>Prachi's Portfolio</h3>
+        <a href="#about">About Me</a>
+        <a href="#skills">My Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="3#contact">Get in touch</a>
+    </nav>
     <div class="hero">
         <h1>PRACHI NIMKAR</h1>
         <h2>Student & Developer</h2>
@@ -16,12 +25,20 @@
             From open-source contributions to AI-powered learning tools, I enjoy transforming
             complex ideas into practical solutions.
         </p>
-        <button id="btn1">Hire Me</button>
-        <button id="btn1">Resume</button>
+        <div class="hero-btns">
+            <button id="btn-hire">Hire Me</button>
+            <button id="btn-resume">Resume</button>
+        </div>
         <div class="social1">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-regular fa-envelope"></i>
+            <a href="https://github.com/nimkarprachi17" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/prachi-nimkar-072303201/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:nimkarprachi377@gmail.com">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
         </div>
     </div>
     <section class="about" id="about">
@@ -48,5 +65,18 @@
             </div>
         </div>
     </section>
+    <section class="skills" id="skills">
+        <h2>Skills & Tools</h2>
+        <p>Technologies | Work with</p>
+        <h4>Technical Skills</h4>
+        <div class="skills-icons">
+            
+        </div>
+        <h4>Tools & Platforms</h4>
+        <div class="tools-icons">
+
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
+</html>
