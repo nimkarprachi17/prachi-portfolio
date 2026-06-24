@@ -164,3 +164,50 @@ button:hover{
     }
 
 }
+.skills {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #0f172a;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.section-sub {
+    color: #94a3b8;
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 40px;
+    max-width: 800px;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: translateY(-6px);
+}
+
+.skill-item i {
+    font-size: 3rem;
+}
+
+.skill-item span {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
